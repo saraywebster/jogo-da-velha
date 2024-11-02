@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar Jogo da Velha",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-g",
+        "main.cpp",
+        "Interface.cpp",
+        "Jogo.cpp",
+        "-o",
+        "jogo-da-velha"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "showOutput": "always",
+      "panel": "new",
+      "detail": "Compilação do jogo da velha em múltiplos arquivos"
+    }
+  ]
+}
