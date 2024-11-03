@@ -11,7 +11,6 @@
 - [Como Compilar e Executar](#como-compilar-e-executar)
   - [Compilação](#compilação)
   - [Execução](#execução)
-- [Vídeo](#vídeo)
 
 ## Visão Geral
 
@@ -97,6 +96,12 @@ O encapsulamento é um dos princípios fundamentais da programação orientada a
 
 No terminal, use o seguinte comando para compilar todos os arquivos:
 
+```
+  make compila
+```
+
+obs.: será executado o seguinte código:
+
 ```bash
 g++ -g main.cpp Interface.cpp Jogo.cpp Jogador.cpp -o jogo-da-velha
 ```
@@ -112,5 +117,3 @@ g++ -g main.cpp Interface.cpp Jogo.cpp Jogador.cpp -o jogo-da-velha
 ![execução](/src/ex.png)
 
 ![jogo](/src/game.png)
-
-## Vídeo

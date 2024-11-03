@@ -55,7 +55,7 @@ void Interface::renderiza(Jogo jogo) {
         for (int i = 0; i < 3; i++) {
             char buffer[30];
             sprintf(buffer, "| %s | %s | %s |", this->simbolo(jogo.valorEm(0, i), 0, i).c_str(),
-                    this->simbolo(jogo.valorEm(i, 1), 1, i).c_str(),
+                    this->simbolo(jogo.valorEm(1, i), 1, i).c_str(),
                     this->simbolo(jogo.valorEm(2, i), 2, i).c_str());
 
             cout << buffer << endl;
