@@ -106,7 +106,7 @@ obs.: será executado o seguinte código:
 g++ -g main.cpp Interface.cpp Jogo.cpp Jogador.cpp -o jogo-da-velha
 ```
 
-![compilação](/src/cp.png)
+![compilação](/img/cp.png)
 
 ### Execução
 
@@ -114,6 +114,6 @@ g++ -g main.cpp Interface.cpp Jogo.cpp Jogador.cpp -o jogo-da-velha
 ./jogo-da-velha
 ```
 
-![execução](/src/ex.png)
+![execução](/img/ex.png)
 
-![jogo](/src/game.png)
+![jogo](/img/game.png)
